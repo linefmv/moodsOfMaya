@@ -1,10 +1,11 @@
 import moodsOfMaya from "../../data/database"
-import { SelectedMood, PhotoAndDescription, ImageMood, MoodOfDay, TypeOfMood  } from './styles';
+import { BestPart, SelectedMood, PhotoAndDescription, ImageMood, MoodOfDay, TypeOfMood  } from './styles';
 import Carousel from "react-elastic-carousel";
 import './style.css'
 
 const Card = () => {
     return(
+      <BestPart>
       <Carousel>
         {moodsOfMaya.map(mood => 
           <SelectedMood key={mood.id}>
@@ -16,6 +17,7 @@ const Card = () => {
           </SelectedMood>
         )}
       </Carousel>
+      </BestPart>
     )
   
   }
