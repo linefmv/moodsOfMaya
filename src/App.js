@@ -4,10 +4,10 @@ import TitleandDescription from './components/TitleAndDescription/TitleandDescri
 
 function App() {
   return (
-    <>
+    <main>
       <TitleandDescription/>
       <Card/>
-    </>
+    </main>
   );
 }
 

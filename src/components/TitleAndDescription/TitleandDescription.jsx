@@ -1,11 +1,11 @@
-import { Title, Description } from './styles';
+import { Title, Description, Header } from './styles';
 
 const TitleandDescription = () => {
     return( 
-        <header>
+        <Header>
         <Title> Maya the dog 🐶 </Title>
         <Description> She is the best partner in the word, and we are best friends. </Description>
-        </header>
+        </Header>
     )
 }
 export default TitleandDescription
