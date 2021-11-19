@@ -1,18 +1,16 @@
 
-/* square buttons */
+
 .rec.rec-arrow {
     border-radius: 0;
 }
-/* round buttons on hover */
+
 .rec.rec-arrow:hover {
     border-radius: 50%;
 }
-/* hide disabled buttons */
+
 .rec.rec-arrow:disabled {
     visibility: hidden;
 }
-/* disable default outline on focused items */
-/* add custom outline on focused items */
 .rec.rec-dot {
     border-radius: 0%;
 }
@@ -26,7 +24,7 @@
 }
 
 .rec.rec-carousel-wrapper {
-    background: rgba( 228, 88, 88, 0.25 );
+background: rgba( 228, 88, 88, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 2.5px );
 -webkit-backdrop-filter: blur( 2.5px );
@@ -36,6 +34,7 @@ padding: 2vh;
 display: flex;
 align-items: center;
 justify-content: center;
+width: 100%;
 }
 
 .rec.rec-pagination {
