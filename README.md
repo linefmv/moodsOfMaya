@@ -4,6 +4,7 @@
 
 - Moods Of Maya, é um carrosel com título, tipo e imagem que visa descrever os diversos comportamentos/humores da maya.
 
+- Desenvolvido em React, foi usado a biblioteca react-elastic-carousel para o carrosel e para estilizar 💅 styled-components. 
 
 ### Iniciar
  - Para rodar na sua máquina basta dar um fork no projeto.
