@@ -9,21 +9,21 @@ const moodsOfMaya = [
     {
       id: 2,
       nameOfMood: "The Sleep One",
-      type: "lazy",
+      type: "Lazy",
       pic: "./img/sleep.jpeg"
   
     },
     {
       id: 3,
       nameOfMood: "Funny Girl",
-      type: "comedy",
+      type: "Comedy",
       pic: "./img/funny.jpeg"
   
     },
     {
       id: 4,
-      nameOfMood: "Gossip",
-      type: "tmz",
+      nameOfMood: "Gossip Girl",
+      type: "employee in TMZ",
       pic: "./img/gossip.jpeg"
   
     }
